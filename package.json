@@ -1,0 +1,18 @@
+{
+  "name": "select-to-copy",
+  "author": "wChenonly",
+  "description": "Select to copy and use in the browser.",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9",
+    "vite-plugin-monkey": "^3.2.2"
+  }
+}
