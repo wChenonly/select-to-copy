@@ -14,13 +14,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "release": "bumpp -x \"node bump.js\" --all"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.1",
+    "bumpp": "^9.1.1",
+    "prettier": "^2.8.8",
     "typescript": "^5.1.6",
     "vite": "^4.3.9",
-    "vite-plugin-monkey": "^3.2.2",
-    "prettier": "^2.8.8"
+    "vite-plugin-monkey": "^3.2.2"
   }
 }

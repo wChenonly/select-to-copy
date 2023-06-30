@@ -1,10 +1,12 @@
+import { unsafeWindow } from '$'
+
 let text: any
 
 document.onclick = function () {
   if (unsafeWindow.getSelection) {
     text = unsafeWindow.getSelection()
-  } else if (document.selection) {
-    text = document.selection.createRange()
+  } else if (document.getSelection) {
+    text = document.getSelection()
   }
 
   const v = text?.toString()
