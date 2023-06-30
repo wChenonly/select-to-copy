@@ -4,6 +4,7 @@
 // @version      0.0.1
 // @author       wChenonly
 // @description  Select to copy and use in the browser.
+// @license      MIT
 // @include      *://**/*
 // @grant        unsafeWindow
 // ==/UserScript==

@@ -1,18 +1,26 @@
 {
   "name": "select-to-copy",
-  "author": "wChenonly",
-  "description": "Select to copy and use in the browser.",
-  "private": true,
-  "version": "0.0.1",
   "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Select to copy and use in the browser.",
+  "author": "wChenonly",
+  "homepage": "https://github.com/wChenonly/select-to-copy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wChenonly/select-to-copy.git"
+  },
+  "bugs": "https://github.com/wChenonly/select-to-copy/issues",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.39.1",
     "typescript": "^5.1.6",
     "vite": "^4.3.9",
-    "vite-plugin-monkey": "^3.2.2"
+    "vite-plugin-monkey": "^3.2.2",
+    "prettier": "^2.8.8"
   }
 }
