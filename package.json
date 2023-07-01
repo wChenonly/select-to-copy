@@ -13,7 +13,7 @@
   "bugs": "https://github.com/wChenonly/select-to-copy/issues",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "release": "bumpp -x \"node bump.js\" --all"
   },
   "devDependencies": {
