@@ -17,7 +17,7 @@
     "release": "bumpp -x \"node bump.js\" --all"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.1",
+    "@antfu/eslint-config": "^0.39.6",
     "bumpp": "^9.1.1",
     "prettier": "^2.8.8",
     "typescript": "^5.1.6",

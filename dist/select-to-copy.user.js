@@ -18,16 +18,19 @@
 
   var _unsafeWindow = /* @__PURE__ */ (() => typeof unsafeWindow != "undefined" ? unsafeWindow : void 0)();
   let text;
-  document.onclick = function() {
+  const body = document.querySelector("body");
+  body == null ? void 0 : body.addEventListener("mouseup", (e) => {
+    var _a;
+    if (((_a = e.target) == null ? void 0 : _a.isContentEditable) || e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+      return;
+    }
     if (_unsafeWindow.getSelection) {
       text = _unsafeWindow.getSelection();
     } else if (document.getSelection) {
       text = document.getSelection();
     }
     const v = text == null ? void 0 : text.toString();
-    if (v) {
-      navigator.clipboard.writeText(v);
-    }
-  };
+    v && navigator.clipboard.writeText(v);
+  });
 
 })();
