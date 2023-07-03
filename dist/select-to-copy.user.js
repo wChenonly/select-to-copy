@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         select-to-copy
 // @namespace    https://github.com/wChenonly/select-to-copy
-// @version      0.0.5
+// @version      0.0.6
 // @author       wChenonly
 // @description  Select to copy and use in the browser.
 // @license      MIT
